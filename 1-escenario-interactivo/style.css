@@ -119,3 +119,41 @@ display: flex;
 align-items: center; 
 justify-content: space-between;
 }
+
+
+ 
+.saltar{
+    animation: salto 0.6s ease forwards;
+}
+@keyframes salto {
+    0% { transform: translateY(0); opacity: 1; }
+    30% { transform: translateY(-60px); }
+    100% { transform: translateY(0); opacity: 0; }
+}
+
+
+
+
+.bloque2{
+    animation: moverBloque 4s linear infinite alternate;
+}
+
+@keyframes moverBloque {
+    0% {left: 55% }
+    100% { left: 89% }
+
+}
+
+
+.bloque1{
+    animation: moverBloque1 1s linear infinite alternate;
+}
+
+@keyframes moverBloque1 {
+    0% {left: 3% }
+    100% { left: 20% }
+
+}
+
+
+                

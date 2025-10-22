@@ -156,4 +156,74 @@ justify-content: space-between;
 }
 
 
-                
+.Mario{
+align-items: center;
+display: flex;
+text-align: center;
+width: 100%;
+height: 100vh;
+justify-content: center;
+position: relative;
+min-width: 800px;
+}              
+
+
+.fondo2{
+background-image: url(img/fondomario.jpg);
+position: relative;
+width: 750px;
+height: 500px;
+background-size: cover;
+border: 2px solid black;
+
+}
+
+.moneda1 img{
+width: 18%;
+height: 15%;
+position: absolute;
+top: 68%;
+left: 22%;
+
+}
+
+.moneda2 img{
+width: 18%;
+height: 15%;
+position: absolute;
+top: 38%;
+left: 65%;
+
+}
+
+
+.moneda3 img{
+width: 18%;
+height: 15%;
+position: absolute;
+top: 50%;
+left: 43%;
+
+}
+
+.nube img{
+width: 18%;
+height: 15%;
+position: absolute;
+top: 6%;
+left: 55%;
+}
+
+
+
+
+
+.marioo img{
+width: 80px ;
+height: 100px ;
+top: 69% ;
+left: 4%;
+display: flex;
+position: absolute;
+
+}

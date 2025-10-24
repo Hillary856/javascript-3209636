@@ -134,6 +134,8 @@ justify-content: space-between;
 
 
 
+
+
 .bloque2{
     animation: moverBloque 4s linear infinite alternate;
 }
@@ -206,6 +208,29 @@ left: 43%;
 
 }
 
+
+.recolecta{
+width: 130px;
+ position: absolute;
+ top: 10px;
+ right: 600px;
+ font-size: 10px;
+ color: white;
+ text-shadow: 2px 2px 4px;
+display: flex;
+align-items: center; 
+justify-content: space-between;
+
+}
+
+.monedas img{
+position: absolute;
+width: 66px;
+height: 35px;
+left: -23%;
+top: -23%;
+}
+
 .nube img{
 width: 18%;
 height: 15%;
@@ -214,7 +239,26 @@ top: 6%;
 left: 55%;
 }
 
+.nube img{
+animation: moverNube 4s linear infinite alternate;
 
+}
+
+@keyframes moverNube {
+  0%  {left: 55% }
+  100%  {left: 5%}
+}
+
+@keyframes moverMario {
+   0% {left: 4%}
+   100% {left: 89%}
+
+}
+
+.marioo img{
+animation: moverMario 4s linear infinite alternate;
+
+}
 
 .marioo img{
 width: 80px ;
@@ -253,8 +297,8 @@ border: 2px solid black;
 width: 6%;
 height: 10%;
 position: absolute;
-top: 47%;
-left: 45%;
+top: 14%;
+left: 28%;
 
 
 }
@@ -263,8 +307,8 @@ left: 45%;
 width: 6%;
 height: 10%;
 position: absolute;
-top: 61%;
-left: 64%
+top: 15%;
+left: 57%
 
 
 }
@@ -272,11 +316,33 @@ left: 64%
 width: 6%;
 height: 10%;
 position: absolute;
-top: 47%;
+top: 15%;
 left: 84%;
 
 }
 
+.otromas{
+width: 130px;
+ position: absolute;
+ top: 10px;
+ right: 600px;
+ font-size: 10px;
+ color: white;
+ text-shadow: 2px 2px 4px;
+display: flex;
+align-items: center; 
+justify-content: space-between;
+
+}
+
+.corazon img{
+ position: absolute;
+width: 43px;
+height: 38px;
+left: -13%;
+top: -25%;  
+
+}
 
 .flecha img{
 width: 19%;
@@ -285,6 +351,25 @@ position: absolute;
 top: 26%;
 left: 4%;
 transform: rotate(44deg);
+}
+
+.flecha img{
+    animation: moverFlecha 4s linear infinite alternate;
+}
+
+@keyframes moverFlecha{
+    0% {left: 4%;}
+   100% {left: 79%; }
+
+}
+
+@keyframes moverOso{
+    0% {left: 7% ;}
+    100% {left: 79% ;}
+}
+
+.osito img{
+  animation: moverOso 6s linear infinite alternate;  
 }
 
 .osito img{

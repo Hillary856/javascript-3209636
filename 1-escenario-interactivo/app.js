@@ -1,6 +1,8 @@
 const diamantes = document.querySelectorAll('.diamond');
 const score = document.querySelector('.contador');
+const sonidoDiamante = new Audio('sonidos/diamante.mp3')
 let i = 0
+
 
 // no puedo dar nulo
 console.log(diamantes);
@@ -13,6 +15,12 @@ diamantes.forEach(item => {
         item.classList.add('saltar');
         i++
         score.textContent = i
+
+
+sonidoDiamante.play();
+
+
+
     })
 
 
@@ -22,10 +30,11 @@ diamantes.forEach(item => {
 
 })
 
-
+const SonidoMoneda = new Audio('sonidos/moneda.wav')
 const monedas = document.querySelectorAll('.money')
 const recolecta = document.querySelector('.suma')
 let counterMonedas = 0
+
 
 console.log(monedas);
 console.log(score);
@@ -37,6 +46,12 @@ monedas.forEach(item => {
         item.classList.add('saltar');
         counterMonedas++
         recolecta.textContent = counterMonedas
+
+
+SonidoMoneda.play();
+
+
+
     })
 
 
@@ -47,7 +62,7 @@ monedas.forEach(item => {
 })
 
 
-
+const sonidoCorazon = new Audio('sonidos/heart.mp3')
 const corazon = document.querySelectorAll('.heart')
 const otromas = document.querySelector('.mas')
 let couterCorazones = 0
@@ -62,6 +77,11 @@ corazon.forEach(item => {
         item.classList.add('saltar');
         couterCorazones++
         otromas.textContent = couterCorazones
+
+
+sonidoCorazon.play();
+
+
     })
 
 
@@ -115,5 +135,16 @@ miniaturas.forEach((min, i) => {
         mostrarescena(i);
     });
 });
+
+
+var x = document.getElementById("myAudio");
+
+function playAudio() {
+  x.play();
+}
+
+function pauseAudio() {
+  x.pause();
+}
 
 

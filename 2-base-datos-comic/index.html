@@ -1,79 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="">
+    <title>MITONIC</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
 
-<header>
-
-<nav class="menu">
-    <img src="" alt="">
-    <ul>
-<li>HOME</li>
-<li>GALLERY</li>
-<li>ABOUT</li>
-<li>CHARACTERS</li>
-    </ul>
-</nav>
-
-
-
-<div class="txt-header">
-    <h1>MITONIC</h1>
-    <h2>COMIC BOOK</h2>
-    <p> Breve descripcion </p>
-
-    <div> <button class="btn-comic"> VER COMIC </button> </div>
-
-</div>
-
-
+<header class="header">
+    <nav class="navbar">
+        <div class="logo">MITONIC</div>
+        <ul class="nav-menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CHARACTERS</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>MITONIC</h1>
+            <h2>COMIC BOOK</h2>
+            <p>Breve descripcion</p>
+            <button class="btn-primary">VER COMIC</button>
+        </div>
+        <div class="hero-image"></div>
+    </div>
 </header>
 
-<article class="psj">
- <div class="s1 img1">
-    <h4>ADRIAN</h4>
-</div>
-
-<div class="s2 img2">
-    <h4>NINOVE</h4>
-</div>
-
-<div class="s3 img3">
-    <h4>MONJE</h4>
-</div>
-
-<div class="s4 img4">
-    <h4>SOCRATES</h4>
-</div>
-
-
-<div class="s5 img5">
-    <h4>ARISTOTELES</h4>
-</div>
-
-
-<div class="s6 img6">
-    <h4>PLATON</h4>
-</div>
-
-<div class="s7 img7">
-    <h4>SENADOR</h4>
-</div>
-
-
-
-
-</article>
-    
-
-
+<section class="characters">
+    <h2>PERSONAJES</h2>
+    <div class="characters-grid">
+        <div class="character-card">
+            <div class="char-image img1"></div>
+            <h3>ADRIAN</h3>
+        </div>
+        <div class="character-card">
+            <div class="char-image img2"></div>
+            <h3>NINOVE</h3>
+        </div>
+        <div class="character-card">
+            <div class="char-image img3"></div>
+            <h3>MONJE</h3>
+        </div>
+        <div class="character-card">
+            <div class="char-image img4"></div>
+            <h3>SOCRATES</h3>
+        </div>
+        <div class="character-card">
+            <div class="char-image img5"></div>
+            <h3>ARISTOTELES</h3>
+        </div>
+        <div class="character-card">
+            <div class="char-image img6"></div>
+            <h3>PLATON</h3>
+        </div>
+        <div class="character-card">
+            <div class="char-image img7"></div>
+            <h3>SENADOR</h3>
+        </div>
+    </div>
+</section>
 
 <script src="app.js"></script>
 <script src="bd.js"></script>
+
 </body>
 </html>

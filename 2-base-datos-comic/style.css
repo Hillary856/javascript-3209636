@@ -59,6 +59,12 @@ body {
     margin: 0 auto;
 }
 
+
+.epi h2{
+    color: white;
+    text-align: center;
+}
+
 /* sec comic destacado */
 .comic-destacado {
     display: flex;

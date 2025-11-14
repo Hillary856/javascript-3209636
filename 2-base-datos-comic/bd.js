@@ -6,7 +6,7 @@ let comic =
   "autores": ["Hillary", "Andres", "Katherine", "Stiven"],
   "personajes": ["Adrian", "Ninove", "Senador","Socrates", "Aristoteles", "Platon"],
   "genero": "Ficcion",
-  "portada": "img/portada",
+  "portada": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
 
 
   "escenas": [

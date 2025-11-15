@@ -409,3 +409,154 @@ body {
 }
 
 
+
+
+
+/* RESPONSIVE TABLET */
+@media (max-width: 1024px) {
+
+    .navbar {
+        padding: 0 30px;
+        gap: 20px;
+    }
+
+    .nav-menu {
+        gap: 25px;
+    }
+
+    /* Comic destacado */
+    .comic-destacado {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 30px;
+        gap: 40px;
+    }
+
+    .comic-imagen {
+        flex: unset;
+        width: 80%;
+    }
+
+    .stats {
+        justify-content: center;
+    }
+
+    /* Media section */
+    .media-flecha {
+        display: none; 
+    }
+
+    .media-contenedor {
+        max-width: 90%;
+    }
+}
+
+/* RESPONSIVE CELULAR*/
+@media (max-width: 768px) {
+
+  
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .nav-menu {
+        display: none; 
+    }
+
+    
+    .comic-destacado {
+        padding: 40px 20px;
+    }
+
+    .comic-imagen {
+        width: 100%;
+    }
+
+    .comic-detalles h1 {
+        font-size: 36px;
+    }
+
+    .comic-detalles h2 {
+        font-size: 20px;
+    }
+
+    .comic-detalles p {
+        font-size: 15px;
+    }
+
+    .stats {
+        gap: 20px;
+    }
+
+    .numero {
+        font-size: 24px;
+    }
+
+    
+    .media-card {
+        min-width: 220px;
+    }
+
+    .media-section {
+        padding: 50px 0;
+        gap: 10px;
+    }
+
+   
+    .personajes {
+        padding: 40px 20px;
+    }
+
+    .personajes h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .grid-personajes {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .tarjeta-personaje {
+        padding: 20px 10px;
+    }
+
+    .personaje-avatar {
+        font-size: 40px;
+    }
+}
+
+/* MÓVIL PEQUEÑO */
+@media (max-width: 480px) {
+
+    .grid-personajes {
+        grid-template-columns: 1fr;
+    }
+
+    .comic-detalles h1 {
+        font-size: 30px;
+    }
+
+    .comic-detalles h2 {
+        font-size: 18px;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .media-card {
+        min-width: 180px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+

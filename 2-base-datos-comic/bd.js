@@ -47,7 +47,7 @@ let comic =
       "id": 1,
       "name": "Cueva",
       "personajes": ["Adrian"],
-      "image": "Dan Jukes",
+      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
 
     },
     {
@@ -63,7 +63,7 @@ let comic =
       "id": 3,
       "name": "Plaza de atenas2",
       "personajes": ["Adrian"],
-      "image": "Dan Jukes",
+      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
     },
 
 

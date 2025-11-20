@@ -1,5 +1,5 @@
 const destacados = document.querySelector(".comic-destacado")
-const mediaContenedor = document.querySelector(".mediaContenedor")
+const mediaContenedor = document.querySelector(".media-contenedor")
 
 console.log(destacados)
 
@@ -28,15 +28,14 @@ destacados.innerHTML = `
         </div>
 
 `
-
- comic.escenas.forEach(escena => {
+comic.escenas.forEach(escena => {
     const miCard = document.createElement("div")
-    miCard.classList.add("media-card") 
+    miCard.classList.add("media-card")
     miCard.innerHTML = `
-        <img src="(${escena.image})" alt="">
-        <p>${escena.name}</p>
+    <img src="${escena.image}" alt="">
+    <p>${escena.name}</p>
     `
-
     mediaContenedor.appendChild(miCard)
     console.log(escena.name)
-}) 
+}
+)

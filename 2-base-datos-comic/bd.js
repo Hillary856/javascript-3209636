@@ -47,7 +47,7 @@ let comic =
       "id": 1,
       "name": "Cueva",
       "personajes": ["Adrian"],
-      "image": "Dan Jukes",
+      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
 
     },
     {
@@ -73,7 +73,7 @@ let comic =
       "id": 4,
       "name": "Plaza de Atenas3",
       "personajes": ["Adrian"],
-      "image": "Dan Jukes",
+      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
     },
 
 
@@ -83,7 +83,7 @@ let comic =
       "id": 5,
       "name": "Portico",
       "personajes": ["Adrian","Socrates", "Aristoteles", "Platon"],
-      "image": "Dan Jukes",
+      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
     },
 
 
@@ -94,7 +94,7 @@ let comic =
       "id": 6,
       "name": "Foro romano",
       "personajes": ["Adrian", "Senador"],
-      "image": "Dan Jukes",
+      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
     },
 
 
@@ -106,7 +106,7 @@ let comic =
       "id": 7,
       "name": "Imperio romano",
       "personajes": ["Adrian","Monje","Ninove"],
-      "image": "Dan Jukes",
+      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
     },
 
 
@@ -117,7 +117,7 @@ let comic =
       "id": 8,
       "name": "Excavacion",
       "personajes": ["Adrian"],
-      "image": "Dan Jukes",
+      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
     },
 
 

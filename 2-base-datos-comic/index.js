@@ -1,7 +1,10 @@
 const destacados = document.querySelector(".comic-destacado")
 const mediaContenedor = document.querySelector(".media-contenedor")
+const gridpersonajes = document.querySelector(".grid-personajes")
 
 console.log(destacados)
+console.log(mediaContenedor)
+console.log(gridpersonajes)
 
 destacados.innerHTML = `
 <div class="comic-imagen">
@@ -13,15 +16,15 @@ destacados.innerHTML = `
             <p>${comic.sipnosis}</p>
             <div class="stats">
                 <div class="stat">
-                    <span class="numero">8</span>
+                    <span class="numero">${comic.episodios}</span>
                     <span class="label">Episodios</span>
                 </div>
                 <div class="stat">
-                    <span class="numero">4.8</span>
+                    <span class="numero">${comic.calificacion}</span>
                     <span class="label">Calificación</span>
                 </div>
                 <div class="stat">
-                    <span class="numero">50K</span>
+                    <span class="numero">${comic.seguidores}</span>
                     <span class="label">Seguidores</span>
                 </div>
             </div>
@@ -33,9 +36,23 @@ comic.escenas.forEach(escena => {
     miCard.classList.add("media-card")
     miCard.innerHTML = `
     <img src="${escena.image}" alt="">
-    <p>${escena.name}</p>
+            <div class="overlay">
+                <p>${escena.name}</p>
+            </div>
     `
     mediaContenedor.appendChild(miCard)
     console.log(escena.name)
 }
 )
+
+
+comic.personajes.forEach(personaje => {
+    const miCard = document.createElement("div")
+    miCard.classList.add("tarjeta-personaje")
+    miCard.innerHTML = `
+        <div class="personaje-avatar">👤</div>
+        <h3>${personaje.nombre}</h3>
+        <p>${personaje.descripcion}</p>
+    `
+    gridpersonajes.appendChild(miCard)
+})

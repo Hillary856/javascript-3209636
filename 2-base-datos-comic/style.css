@@ -53,7 +53,7 @@ body {
     color: #ff6b35;
 }
 
-/* conte principalL */
+/* conte principal */
 .contenedor-principal {
     max-width: 1400px;
     margin: 0 auto;
@@ -394,7 +394,7 @@ body {
     padding: 12px 18px;
     cursor: pointer;
     transition: 0.3s ease;
-    user-select: none;
+   
 }
 
 

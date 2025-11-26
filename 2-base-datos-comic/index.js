@@ -35,10 +35,12 @@ comic.escenas.forEach(escena => {
     const miCard = document.createElement("div")
     miCard.classList.add("media-card")
     miCard.innerHTML = `
+    <a class ="link" href="escenas.html?id=${escena.ep}">
     <img src="${escena.image}" alt="">
             <div class="overlay">
                 <p>${escena.name}</p>
             </div>
+    </a>
     `
     mediaContenedor.appendChild(miCard)
     console.log(escena.name)
@@ -50,9 +52,11 @@ comic.personajes.forEach(personaje => {
     const miCard = document.createElement("div")
     miCard.classList.add("tarjeta-personaje")
     miCard.innerHTML = `
+    <a class ="link" href= "personajes.html?id=${personaje.id}">
         <div class="personaje-avatar">👤</div>
         <h3>${personaje.nombre}</h3>
         <p>${personaje.descripcion}</p>
+        </a>
     `
     gridpersonajes.appendChild(miCard)
 })

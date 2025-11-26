@@ -10,38 +10,51 @@ let comic =
 
   "personajes": [
 {
+      "id": 1,
       "nombre": "Adrian",
       "imagem": "imagen/adrian.png",
       "descripcion": "Adrian Salvatierra explorador inato va hacia una exploracion con la cual su vida cambiara",
 },
 
 {
+      "id": 2,
       "nombre": "Socrates",
       "imagem": "imagen/socrates.png",
       "descripcion": "Filósofo griego clásico, conocido por su método de enseñanza basado en preguntas.",
 },
 
-{      "nombre": "Aristoteles",
+
+{    
+     "id": 3,
+     "nombre": "Aristoteles",
       "imagem": "imagen/aristoteles.png",
       "descripcion": "Filósofo y científico griego, alumno de Platón y tutor de Alejandro Magno.",
 }, 
 
-{      "nombre": "Platon",
+{ 
+     "id": 4,
+    "nombre": "Platon",
       "imagem": "imagen/platon.png",
       "descripcion": "Filósofo griego, alumno de Sócrates y maestro de Aristóteles, fundador de la Academia en Atenas.",
 },
 
-{      "nombre": "Senador",
+{ 
+     "id": 5,
+     "nombre": "Senador",
       "imagem": "imagen/senador.png",
       "descripcion": "Miembro del Senado romano, encargado de asesorar y legislar en la antigua Roma.",
 },
 
-{      "nombre": "Monje",
+{ 
+     "id": 6,
+     "nombre": "Monje",
       "imagem": "imagen/monje.png",
       "descripcion": "Miembro de una comunidad religiosa que vive bajo votos de pobreza, castidad y obediencia.",
 },
 
-{      "nombre": "Ninove",
+{ 
+     "id": 7,
+     "nombre": "Ninove",
       "imagem": "imagen/ninove.png",
       "descripcion": "Guerrera experta en combate cuerpo a cuerpo y tácticas de supervivencia.",
 },

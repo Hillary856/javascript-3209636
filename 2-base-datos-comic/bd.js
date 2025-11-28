@@ -1,4 +1,4 @@
-let comic = 
+export let comic = 
 {
   "nombreComic": "Adrian y las cronicas del imperio",
   "sipnosis": "Adrian Salvatierra, un joven explorador inato, se embarca en una aventura épica que lo lleva a descubrir secretos antiguos y enfrentarse a desafíos inimaginables. A medida que se adentra en territorios desconocidos, Adrian encuentra aliados inesperados y enemigos formidables, todo mientras desentraña la historia oculta de un imperio perdido que podría cambiar el curso del mundo para siempre.",
@@ -11,8 +11,8 @@ let comic =
   "personajes": [
 {
       "id": 1,
-      "nombre": "Adrian",
-      "imagem": "imagen/adrian.png",
+      "nombre": "ADRIAN SALVATIERRA",
+      "imagem": "./img/adrian faces.png",
       "descripcion": "Adrian Salvatierra explorador inato va hacia una exploracion con la cual su vida cambiara",
 },
 

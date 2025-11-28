@@ -1,3 +1,5 @@
+import { comic } from "./bd.js"
+
 const destacados = document.querySelector(".comic-destacado")
 const mediaContenedor = document.querySelector(".media-contenedor")
 const gridpersonajes = document.querySelector(".grid-personajes")

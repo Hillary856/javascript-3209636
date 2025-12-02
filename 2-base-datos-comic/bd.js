@@ -66,7 +66,7 @@ export let comic =
   ],
 
   "genero": "Ficcion",
-  "portada": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
+  "portada": "./img/fondo-adrian.png",
 
 
   "escenas": [
@@ -75,7 +75,7 @@ export let comic =
       "name": "Cueva",
       "descripcion": "Una épica aventura de acción y drama. Adrian Salvatierra, un explorador nato, es arrastrado a una conspiración llena de misterios, poderes ocultos y enemigos legendarios en un mundo extraordinario.",
       "personajes": ["Adrian"],
-      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
+      "image": "./img/cueva.png",
 
     },
     {
@@ -84,7 +84,7 @@ export let comic =
       "name": "Plaza de atenas1",
       "descripcion": "Descripción del episodio 2.",
       "personajes": ["Adrian",],
-      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
+      "image": "./img/atenas1.png",
     },
     {
       
@@ -93,7 +93,7 @@ export let comic =
       "name": "Plaza de atenas2",
       "descripcion": "Descripción del episodio 3.",
       "personajes": ["Adrian"],
-      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
+      "image": "./img/atenas2.png",
     },
 
 
@@ -104,7 +104,7 @@ export let comic =
       "name": "Plaza de Atenas3",
       "descripcion": "Descripción del episodio 4.",
       "personajes": ["Adrian"],
-      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
+      "image": "./img/atenas3.png",
     },
 
 
@@ -115,7 +115,7 @@ export let comic =
       "name": "Portico",
       "descripcion": "Descripción del episodio 5.",
       "personajes": ["Adrian","Socrates", "Aristoteles", "Platon"],
-      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
+      "image": "./img/portico.png",
     },
 
 
@@ -127,7 +127,7 @@ export let comic =
       "name": "Foro romano",
       "descripcion": "Descripción del episodio 6.",
       "personajes": ["Adrian", "Senador"],
-      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
+      "image": "./img/foro.png",
     },
 
 
@@ -140,7 +140,7 @@ export let comic =
       "name": "Imperio romano",
       "descripcion": "Descripción del episodio 7.",
       "personajes": ["Adrian","Monje","Ninove"],
-      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
+      "image": "./img/imperioromano.png",
     },
 
 
@@ -152,7 +152,7 @@ export let comic =
       "name": "Excavación",
       "descripcion": "Descripción del episodio 8.",
       "personajes": ["Adrian"],
-      "image": "https://i.pinimg.com/1200x/ab/ad/d1/abadd19e286ca24a53c104e57c387b0c.jpg",
+      "image": "",
     },
 
 

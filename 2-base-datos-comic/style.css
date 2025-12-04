@@ -10,7 +10,6 @@ body {
     color: #fff;
 }
 
-
 .header {
     background-color: rgba(0, 0, 0, 0.9);
     padding: 20px 0;
@@ -53,19 +52,18 @@ body {
     color: #ff6b35;
 }
 
-/* conte principal */
+
 .contenedor-principal {
     max-width: 1400px;
     margin: 0 auto;
 }
 
-
-.epi h2{
+.epi h2 {
     color: white;
     text-align: center;
 }
 
-/* sec comic destacado */
+
 .comic-destacado {
     display: flex;
     align-items: center;
@@ -148,6 +146,7 @@ body {
     letter-spacing: 1px;
 }
 
+
 .personajes {
     padding: 80px 60px;
     background-color: rgba(0, 0, 0, 0.7);
@@ -176,7 +175,6 @@ body {
     padding: 30px 20px;
     text-align: center;
     border-radius: 8px;
-    
 }
 
 .personaje-avatar {
@@ -224,28 +222,32 @@ body {
     display: flex;
     gap: 20px;
     overflow-x: auto;
-    scroll-behavior: smooth;
-    scrollbar-width: none; 
     max-width: 1000px;
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
 
+
 .media-contenedor::-webkit-scrollbar {
-    display: none;
+    height: 25px;
 }
+
+.media-contenedor::-webkit-scrollbar-thumb {
+    background: #ff6b35;
+    border-radius: 10px;
+}
+
 
 .media-card {
     position: relative;
     min-width: 300px;
-    border: 2px solid #ff1a1a;
+    border: 2px solid #ff6b35;
     border-radius: 10px;
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
-
 .media-card img {
-    width: 100%;
+    width: 184%;
     height: 100%;
     object-fit: cover;
     display: block;
@@ -273,145 +275,15 @@ body {
     letter-spacing: 1px;
 }
 
-.play-btn {
-    position: absolute;
-    top: 40%;
-    font-size: 50px;
-    color: #ff1a1a;
-    opacity: 0.8;
-    transition: 0.3s ease;
-}
 
-
-.media-flecha {
-    background-color: #ff1a1a;
-    color: #fff;
-    font-size: 32px;
-    border-radius: 50%;
-    padding: 12px 18px;
-    transition: 0.3s ease;
-    user-select: none;
-}
-
-
-
-.flecha-izq {
-    position: absolute;
-    left: 40px;
-}
-
-.flecha-der {
-    position: absolute;
-    right: 40px;
-}
-
-
-
-.media-section {
-    position: relative;
-    background: radial-gradient(circle at center, #0a0a0a 0%, #000 100%);
-    padding: 80px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    overflow: hidden;
-}
-
-.media-contenedor {
-    display: flex;
-    gap: 20px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    scrollbar-width: none; 
-    max-width: 1000px;
-}
-
-.media-contenedor::-webkit-scrollbar {
-    display: none;
-}
-
-.media-card {
-    position: relative;
-    min-width: 300px;
-    border: 2px solid #ff1a1a;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-
-
-.media-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-.overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 35%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 15px;
-}
-
-.overlay p {
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
-
-.play-btn {
-    position: absolute;
-    top: 40%;
-    font-size: 50px;
-    color: #ff1a1a;
-    opacity: 0.8;
-    transition: 0.3s ease;
-}
-
-
-
-.media-flecha {
-    background-color: #ff1a1a;
-    color: #fff;
-    font-size: 32px;
-    border-radius: 50%;
-    padding: 12px 18px;
-    transition: 0.3s ease;
-   
-}
-
-
-.flecha-izq {
-    position: absolute;
-    left: 40px;
-}
-
-.flecha-der {
-    position: absolute;
-    right: 40px;
-}
 
 
 .link {
     text-decoration: none;
 }
 
-
-/* RESPONSIVE TABLET */
+/* Responsive Tablet */
 @media (max-width: 1024px) {
-
     .navbar {
         padding: 0 30px;
         gap: 20px;
@@ -421,7 +293,6 @@ body {
         gap: 25px;
     }
 
-    /* Comic destacado */
     .comic-destacado {
         flex-direction: column;
         text-align: center;
@@ -438,9 +309,8 @@ body {
         justify-content: center;
     }
 
-    /* Media section */
     .media-flecha {
-        display: none; 
+        display: none;
     }
 
     .media-contenedor {
@@ -448,10 +318,8 @@ body {
     }
 }
 
-/* RESPONSIVE CELULAR*/
+/* Responsive Celular */
 @media (max-width: 768px) {
-
-  
     .navbar {
         padding: 0 20px;
     }
@@ -461,10 +329,9 @@ body {
     }
 
     .nav-menu {
-        display: none; 
+        display: none;
     }
 
-    
     .comic-destacado {
         padding: 40px 20px;
     }
@@ -493,7 +360,6 @@ body {
         font-size: 24px;
     }
 
-    
     .media-card {
         min-width: 220px;
     }
@@ -503,7 +369,6 @@ body {
         gap: 10px;
     }
 
-   
     .personajes {
         padding: 40px 20px;
     }
@@ -527,9 +392,8 @@ body {
     }
 }
 
-/* MÓVIL PEQUEÑO */
+/* Móvil Pequeño */
 @media (max-width: 480px) {
-
     .grid-personajes {
         grid-template-columns: 1fr;
     }
@@ -555,5 +419,4 @@ body {
         font-size: 12px;
     }
 }
-
 

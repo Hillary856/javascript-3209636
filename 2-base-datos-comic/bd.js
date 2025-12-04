@@ -23,7 +23,7 @@ export let comic =
 {
       "id": 2,
       "nombre": "Socrates",
-      "imagem": "imagen/socrates.png",
+      "imagem": "./img/Socrates.png",
       "descripcion": "Filósofo griego clásico, conocido por su método de enseñanza basado en preguntas.",
 },
 
@@ -31,35 +31,35 @@ export let comic =
 {    
      "id": 3,
      "nombre": "Aristoteles",
-      "imagem": "imagen/aristoteles.png",
+      "imagem": "./img/aristoteles.jpg",
       "descripcion": "Filósofo y científico griego, alumno de Platón y tutor de Alejandro Magno.",
 }, 
 
 { 
      "id": 4,
     "nombre": "Platon",
-      "imagem": "imagen/platon.png",
+      "imagem": "./img/platon.jpg",
       "descripcion": "Filósofo griego, alumno de Sócrates y maestro de Aristóteles, fundador de la Academia en Atenas.",
 },
 
 { 
      "id": 5,
      "nombre": "Senador",
-      "imagem": "imagen/senador.png",
+      "imagem": "./img/senador.png",
       "descripcion": "Miembro del Senado romano, encargado de asesorar y legislar en la antigua Roma.",
 },
 
 { 
      "id": 6,
      "nombre": "Monje",
-      "imagem": "imagen/monje.png",
+      "imagem": "./img/monje.png",
       "descripcion": "Miembro de una comunidad religiosa que vive bajo votos de pobreza, castidad y obediencia.",
 },
 
 { 
      "id": 7,
      "nombre": "Ninove",
-      "imagem": "imagen/ninove.png",
+      "imagem": "./img/ninove.png",
       "descripcion": "Guerrera experta en combate cuerpo a cuerpo y tácticas de supervivencia.",
 },
 
@@ -152,7 +152,7 @@ export let comic =
       "name": "Excavación",
       "descripcion": "Descripción del episodio 8.",
       "personajes": ["Adrian"],
-      "image": "",
+      "image": "./img/excavacion.png",
     },
 
 

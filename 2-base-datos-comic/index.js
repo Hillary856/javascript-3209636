@@ -9,8 +9,33 @@ console.log(mediaContenedor)
 console.log(gridpersonajes)
 
 destacados.innerHTML = `
-<div class="comic-imagen">
-            <img src="${comic.portada}">
+        <div class="comic-imagen">
+             <div class="comic-imagen">
+                <div class="carrusel">
+                    <input type="radio" name="slide" id="c1" checked>
+                    <input type="radio" name="slide" id="c2">
+                    <input type="radio" name="slide" id="c3">
+
+                    <div class="carrusel-slides">
+                        <div class="c-item">
+                            <img src="${comic.escenas[1].image}" alt="">
+                        </div>
+                        <div class="c-item">
+                            <img src="${comic.escenas[2].image}" alt="">
+                        </div>
+                        <div class="c-item">
+                            <img src="${comic.escenas[3].image}" alt="">
+                        </div>
+                    </div>
+
+                    <div class="c-nav">
+                        <label for="c1"></label>
+                        <label for="c2"></label>
+                        <label for="c3"></label>
+                    </div>
+                </div>
+
+            </div>
         </div>
         <div class="comic-detalles">
             <h1>${comic.nombreComic}</h1>

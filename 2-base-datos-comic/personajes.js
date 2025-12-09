@@ -22,5 +22,5 @@ contenedor.innerHTML = `
         <p>${personaje.descripcion}</p>
         <p><strong>Participación:</strong> Protagonista</p>
     </div>
-
+ <a href="index.html"><button class="boton-inicio">INICIO</button></a>
 `

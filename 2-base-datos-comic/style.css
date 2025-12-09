@@ -276,6 +276,101 @@ body {
 }
 
 
+.carrusel {
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    border: 4px solid #ff6b35;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 10px 40px rgba(255, 107, 53, 0.3);
+}
+
+.carrusel input {
+    display: none;
+}
+
+.carrusel-slides {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    transition: transform 0.6s ease;
+    animation: autoSlide 14s infinite;
+}
+
+.c-item {
+    flex: 0 0 100%;
+}
+
+.c-item img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+@keyframes autoSlide {
+    0%   { transform: translateX(0); }
+    33%  { transform: translateX(-100%); }
+    66%  { transform: translateX(-200%); }
+    100% { transform: translateX(0); }
+}
+
+
+.c-nav {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.c-nav label {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #ff6b35;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.c-nav label:hover {
+    background: #ff6b35;
+}
+
+
+#c1:checked ~ .carrusel-slides {
+    animation: none;
+    transform: translateX(0);
+}
+
+#c2:checked ~ .carrusel-slides {
+    animation: none;
+    transform: translateX(-100%);
+}
+
+#c3:checked ~ .carrusel-slides {
+    animation: none;
+    transform: translateX(-200%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .link {
@@ -392,31 +487,5 @@ body {
     }
 }
 
-/* Móvil Pequeño */
-@media (max-width: 480px) {
-    .grid-personajes {
-        grid-template-columns: 1fr;
-    }
 
-    .comic-detalles h1 {
-        font-size: 30px;
-    }
-
-    .comic-detalles h2 {
-        font-size: 18px;
-    }
-
-    .stats {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .media-card {
-        min-width: 180px;
-    }
-
-    footer {
-        font-size: 12px;
-    }
-}
 

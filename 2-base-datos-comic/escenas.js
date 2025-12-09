@@ -31,6 +31,8 @@ contenedor.innerHTML = `
             <strong>Protagonistas:</strong> Adrian Salvatierra, Ninove, Monje, Aristóteles, Platón, Socrates, Senador. <br>
             <strong>Creador:</strong> Hillary C.
         </p>
+
+        <a href="index.html"><button class="boton-inicio">INICIO</button></a>
     </div>
 
 `

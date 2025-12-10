@@ -81,7 +81,9 @@ comic.personajes.forEach(personaje => {
     miCard.classList.add("tarjeta-personaje")
     miCard.innerHTML = `
     <a class ="link" href= "personajes.html?id=${personaje.id}">
-        <div class="personaje-avatar">👤</div>
+        <div class="personaje-avatar">
+        <img src="${personaje.imagem}" alt="Personaje">
+        </div>
         <h3>${personaje.nombre}</h3>
         <p>${personaje.descripcion}</p>
         </a>

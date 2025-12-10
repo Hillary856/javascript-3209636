@@ -56,6 +56,7 @@ destacados.innerHTML = `
                 </div>
             </div>
         </div>
+        
 
 `
 comic.escenas.forEach(escena => {

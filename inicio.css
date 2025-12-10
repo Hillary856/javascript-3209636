@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+ 
+}
+
+.boton{
+padding: 50%;
+}
+
+
+
+
+.titulo{
+color: #ff6b35;
+display: flex;
+justify-content: center;
+margin-top: 20%;
+}

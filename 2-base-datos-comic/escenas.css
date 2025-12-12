@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    animation: fadeOpacity 2s ease-in-out;
+}
+
+
+@keyframes fadeOpacity {
+    from { opacity: 0; }
+    to { opacity: 3; }
+}
 
 .mitonic-detalle {
     width: 100%;

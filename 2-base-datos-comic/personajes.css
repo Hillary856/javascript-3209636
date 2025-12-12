@@ -67,3 +67,65 @@ body {
 
 
 
+
+@media (max-width: 600px) {
+
+    .contenedor {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .personaje-imagen img {
+        width: 80%;
+        height: auto;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .cuadro-naranja {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        text-align: left;
+    }
+
+    .boton-inicio {
+        margin-top: 20px; 
+        font-size: 16px;
+        padding: 12px 30px;
+        align-self: center;
+    }
+}
+
+
+
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+    .contenedor {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .personaje-imagen img {
+        width: 70%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .cuadro-naranja {
+        width: 60%;
+        height: auto;
+        padding: 25px;
+    }
+
+    .boton-inicio {
+        margin-top: 30px;
+        font-size: 18px;
+        padding: 14px 35px;
+    }
+}

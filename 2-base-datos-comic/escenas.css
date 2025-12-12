@@ -88,7 +88,7 @@
 }
 
 
-/* Botón estilo MITONIC */
+
 .boton-inicio {
     display: inline-block;
     margin-top: 30px;
@@ -114,4 +114,91 @@
 
 .boton-inicio:active {
     transform: translateY(1px);
+}
+
+
+@media (max-width: 600px) {
+
+    .mitonic-titulo {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .mitonic-meta {
+        flex-direction: column;
+        gap: 5px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .mitonic-descripcion {
+        font-size: 15px;
+        max-width: 100%;
+        text-align: justify;
+        padding: 0 10px;
+    }
+
+    .mitonic-cast {
+        font-size: 14px;
+        padding: 0 10px;
+        text-align: justify;
+    }
+
+    .banner-video {
+        height: 250px;      
+        object-fit: cover;
+    }
+
+    .boton-inicio {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+
+    .mitonic-info {
+        padding: 10px;
+    }
+}
+
+
+
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+    .mitonic-titulo {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .mitonic-meta {
+        gap: 15px;
+        font-size: 15px;
+        justify-content: center;
+    }
+
+    .mitonic-descripcion {
+        font-size: 17px;
+        max-width: 100%;
+        text-align: justify;
+        padding: 0 15px;
+    }
+
+    .mitonic-cast {
+        font-size: 15px;
+        padding: 0 15px;
+        text-align: justify;
+    }
+
+    .banner-video {
+        height: 350px;  
+        object-fit: cover;
+    }
+
+    .boton-inicio {
+        font-size: 18px;
+        padding: 15px 35px;
+    }
+
+    .mitonic-info {
+        padding: 15px;
+    }
 }

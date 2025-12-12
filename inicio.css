@@ -2,19 +2,21 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(135deg, black,#ff6b35 );
+    background: linear-gradient(135deg, black, #ff6b35);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    text-align: center;
 }
 
 .titulo {
     color: white;
     font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: Arial, sans-serif;
+    margin: 0 0 20px 0; 
 }
 
 .boton {
@@ -26,8 +28,6 @@ body {
     border-radius: 8px;
     font-weight: bold;
     transition: 0.3s;
-    font-family: Arial, sans-serif;
-    
 }
 
 .boton:hover {
